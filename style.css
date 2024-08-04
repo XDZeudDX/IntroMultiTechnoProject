@@ -1,0 +1,39 @@
+html{
+    /*background-color: rgba(255, 221, 0, 0.993);*/
+    background-image: url(/pics/ArcaneCity.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+body{
+
+    background-color: rgba(233, 233, 233, 0.726);
+    font-size: 35px;
+}
+
+.headline{
+    text-align: center;
+    color: rgba(153, 101, 21, 1.0);
+
+}
+
+#sub-title{
+    text-align: center;
+    color: rgba(136, 8, 8, 1.0);
+}
+
+video{
+    display: block;
+    margin: 0 auto;
+}
+ul{
+    list-style-type: none;
+    font-size: large;
+    text-align: justify;
+}
+
+#bottom-text{
+    text-align: center;
+    color: black;
+    margin-top: auto;
+}
