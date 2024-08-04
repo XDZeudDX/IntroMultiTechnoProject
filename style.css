@@ -2,24 +2,39 @@ html{
     /*background-color: rgba(255, 221, 0, 0.993);*/
     background-image: url(/pics/ArcaneCity.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 
 }
 body{
 
     background-color: rgba(233, 233, 233, 0.726);
+    background-size: cover;
     font-size: 35px;
 }
 
 .headline{
     text-align: center;
-    color: rgba(153, 101, 21, 1.0);
-
+    color: rgb(219, 206, 14);
+    text-shadow: 
+    0 0 7px rgba(153, 101, 21, 1.0),
+    0 0 10px rgba(153, 101, 21, 1.0),
+    0 0 21px rgba(153, 101, 21, 1.0),
+    0 0 42px rgba(144, 153, 21, 1.0),
+    0 0 82px  rgba(144, 153, 21, 1.0),
+    0 0 92px  rgba(144, 153, 21, 1.0),
+    0 0 102px  rgba(144, 153, 21, 1.0),
+    0 0 151px rgba(144, 153, 21, 1.0);
 }
 
 #sub-title{
     text-align: center;
     color: rgba(136, 8, 8, 1.0);
+}
+
+#sub-sub-title{
+    text-align: center;
+    color: rgba(136, 8, 8, 1.0);
+    font-size: 20px;
 }
 
 video{
